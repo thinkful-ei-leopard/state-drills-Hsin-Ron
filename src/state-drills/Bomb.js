@@ -22,7 +22,6 @@ export default class Bomb extends React.Component {
     }
     
     render() {
-        console.log(this.state.count);
         return (
             <div>
                 <p>{this.createString()}</p>
